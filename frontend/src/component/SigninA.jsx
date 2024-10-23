@@ -3,6 +3,8 @@ import axios from "axios";
 import { v4 as uiqueID } from "uuid"
 
 
+// not good way of signin but can look good for understing
+
 const Signin = () => {
 
     const [data, setData] = useState({ username: '', email: '' });
